@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <main>
+        <section id="login">
+            <div id="img">
+                
+            </div>
+
+            <div id="formulario">
+                <h1>Login</h1>
+                <p>
+                    Seja bem-vindo(a) novamente. Faça login para acessar sua conta e poder fazer as configurações no seu ambiente.
+                </p>
+                <form action="login.php" method="post">
+                    <p>
+                        <label for="iml">E-mail</label>
+                        <input type="email" name="email" id="iml" required>
+                    </p>
+                    <p>
+                        <label for="snh">Password</label>
+                        <input type="password" name="senha" id="snh" required minlength="8">
+                    </p>
+                    <p><input type="submit" value="Enviar"></p>
+
+                    <p><input type="button" value="Esqueci minha Senha"></p>
+
+                </form>
+
+            </div>
+
+        </section>
+
+    </main>
+</body>
+</html>
